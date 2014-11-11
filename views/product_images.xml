@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="product_product_template_only_form_view" model="ir.ui.view">
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                   <xpath expr="//page[@string='Information']" position="after">
+                   <page string="Product Images">
+                    <field name="x_product_image_1" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_2" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_3" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_4" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_5" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_6" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_7" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_8" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_9" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_10" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_11" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_12" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_13" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_14" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_15" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_16" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_17" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_18" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_19" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_20" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_21" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    <field name="x_product_image_22" widget="image" class="oe_avatar oe_left" modifiers="{}"/>
+                    </page>
+                    </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>
