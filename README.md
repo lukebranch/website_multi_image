@@ -16,4 +16,5 @@ Image magnification<br/>
       - Zoom (jQuery): https://github.com/jackmoore/zoom/tree/master<br/>
       - BootstrapMagnify: https://github.com/marcaube/bootstrap-magnify<br/>
      <br/><br/>
-Secondary Image (on Mouseover) (Category list view and grid view)
+Secondary Image (on Mouseover) (Category list view and grid view)<br/><br/>
+Image thumbnail preview widget in list view (to replace current download link)
