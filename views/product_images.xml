@@ -11,6 +11,7 @@
 		        <tree editable="bottom">
 				<field name="name"/>
 				<field name="description"/>
+				<field name="image_alt"/>
 				<field name="image"/>
 		        </tree>
 		   </field>
@@ -28,6 +29,7 @@
 			<kanban>
 			    <field name="name"/>
 			    <field name="description"/>
+			    <field name="image_alt"/>
 			    <field name="image"/>
 			    <templates>
 				<t t-name="kanban-box">
