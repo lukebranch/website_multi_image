@@ -3,7 +3,7 @@
     <data>
         <template id="website_multi_image_product_carousel" inherit_id="website_sale.product" name="Website Product Multi-Image Carousel" customize_show="True">
           <xpath expr="//span[@t-field='product.image']" position="replace">
-            <t t-foreach="product.images" t-as="imgs">
+            <t t-foreach="product.image" t-as="imgs">
                 <p><span t-field="imgs.product_tmpl_id.name"/></p>
             </t>
           </xpath>
