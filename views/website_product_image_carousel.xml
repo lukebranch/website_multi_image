@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="website_multi_image_product_carousel" inherit_id="website_sale.product" name="Website Product Multi-Image Carousel" customize_show="True">
+          <xpath expr="//span[@t-field='product.image']" position="replace">
+            <t t-call="product.template">
+                <t t-foreach="images" t-as="i">
+                    <span t-field="i.image" t-attf-alt="i.image_alt"/>
+                </t>
+            </t>
+          </xpath>
+        </template>
+    </data>
+</openerp>

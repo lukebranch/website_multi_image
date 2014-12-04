@@ -1,4 +1,4 @@
-website_multi-image
+website_multi_image
 ===================
 This module adds multiple product images into a tab in product.template in a tab called Product Images. It is definitely a work in progress, however it does allow for storage of multiple images per product and can be used to display multiple images on your website template's product page.
 Website Multi-Image
@@ -16,4 +16,5 @@ Image magnification<br/>
       - Zoom (jQuery): https://github.com/jackmoore/zoom/tree/master<br/>
       - BootstrapMagnify: https://github.com/marcaube/bootstrap-magnify<br/>
      <br/><br/>
-Secondary Image (on Mouseover) (Category list view and grid view)
+Secondary Image (on Mouseover) (Category list view and grid view)<br/><br/>
+Image thumbnail preview widget in list view (to replace current download link)

@@ -6,6 +6,7 @@ class product_image(osv.Model):
     _columns = {
         'name': fields.char('Name'),
         'description': fields.text('Description'),
+        'image_alt': fields.text('Image Label'),
         'image': fields.binary('Image'),
         'image_small': fields.binary('Small Image'),
         'product_tmpl_id': fields.many2one('product.template', 'Product'),
