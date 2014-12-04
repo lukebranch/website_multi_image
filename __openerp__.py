@@ -6,7 +6,8 @@
     'author': 'Luke Branch and Cristian Sebastian Rocha',
     'depends': ['product','sale'],
     'data': [
-        'views/product_images.xml', 
+        'views/product_images.xml',
+        'views/website_product_image_carousel.xml',
         'security/ir.model.access.csv', 
     ],
     'application': True,
