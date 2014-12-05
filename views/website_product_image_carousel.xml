@@ -7,7 +7,7 @@
                     <span itemprop="image" t-field="product.name" t-esc="i"/>
                     <span itemprop="image" t-field="product.description" t-esc="i"/>
                     <span itemprop="image" t-field="product.image_alt" t-esc="i"/>
-                    <span itemprop="image" t-field="product.image" t-field-options="{"widget": "image", "class": "product_detail_img"}" t-esc="i"/>
+                    <span itemprop="image" t-field="product.image" t-field-options="{'widget': 'image', 'class': 'product_detail_img'}" t-esc="i"/>
                 </t>
           </xpath>
         </template>
