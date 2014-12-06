@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="website.theme_chd_misc" name="theme_chd_misc" inherit_id="website.theme" priority="1">
+          <xpath expr="//link[last()]" position="after">
+            <link href="/website_multi_image/static/css/wowslider/style.css" rel="stylesheet" />
+            <link href="/website_multi_image/static/css/bootstrap-magnify/bootstrap-magnify.min.css" rel="stylesheet" />
+          </xpath>
+        </template>
+        <template id="clean_script" inherit_id="website.assets_frontend" name="Clean scripts">
+          <xpath expr="/t" position="inside">
+            <script type="text/javascript" src="/website_multi_image/static/js/wowslider/wowslider.js" data-no-instant=""></script>
+            <script type="text/javascript" src="/website_multi_image/static/js/wowslider/script.js" data-no-instant=""></script>
+            <script type="text/javascript" src="/website_multi_image/static/js/bootstrap-magnify/bootstrap-magnify.min.js" data-no-instant=""></script>
+          </xpath>
+        </template>
+    </data>
+</openerp>
