@@ -12,6 +12,9 @@
             <script type="text/javascript" src="/website_multi_image/static/js/wowslider/wowslider.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/wowslider/script.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/bootstrap-magnify/bootstrap-magnify.min.js" data-no-instant=""></script>
+            <script>
+                $('.magnify-container img').magnify();
+            </script>
           </xpath>
         </template>
     </data>
