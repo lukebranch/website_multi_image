@@ -7,7 +7,7 @@
 	            <div class="ws_images">
 	                <ul>
                         <t t-foreach="product.images" t-as="i">
-                            <li><a href="#"><span t-field="i.image" t-att-alt="i.image_alt" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img magnify-container&quot;}"/></a></li>
+                            <li><a href="#"><span t-field="i.image" t-att-alt="i.image_alt" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img magnify-container&quot;, &quot;alt&quot;: &quot;i.image_alt&quot;}"/></a></li>
                         </t>
                     </ul>
 	            </div>
