@@ -3,24 +3,11 @@
     <data>
         <template id="website_multi_image_product_carousel" inherit_id="website_sale.product" name="Website Product Multi-Image Carousel" customize_show="True">
           <xpath expr="//span[@t-field='product.image']" position="replace">
-            <div id="wowslider-container">
-	            <div class="ws_images">
-	                <ul>
-                        <t t-foreach="product.images" t-as="i">
-                            <li><a href="#"><span t-field="i.image" t-att-alt="i.image_alt" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img magnify-container&quot;, &quot;alt&quot;: &quot;i.image_alt&quot;}"/></a></li>
-                        </t>
-                    </ul>
-	            </div>
-	            <div class="ws_bullets">
-	                <div>
-	                    <t t-foreach="product.images" t-as="i">
-                            <a href="#" title=""><span t-field="i.image_small" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img magnify-container&quot;}"/>1</a>
-                        </t>
-	                </div>
-	            </div>
-		<a href="#" class="ws_frame"></a>
-		<div class="ws_shadow"></div>
-	    </div>
+        	<div class="owl-carousel">
+                	<t t-foreach="product.images" t-as="i">
+                	<div></div><span t-field="i.image_small" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img magnify-container&quot;, &quot;alt&quot;: &quot;i.image_alt&quot;}"/></div>
+                	</t>
+		</div>
           </xpath>
         </template>
     </data>
