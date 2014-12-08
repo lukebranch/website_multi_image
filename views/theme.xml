@@ -15,8 +15,8 @@
         </template>
         <template id="clean_script" inherit_id="website.assets_frontend" name="Clean scripts">
           <xpath expr="/t" position="inside">
-            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jscsrc" data-no-instant=""></script>
-            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jshintrc" data-no-instant=""></script>
+            <!-- <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jscsrc" data-no-instant=""></script>
+            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jshintrc" data-no-instant=""></script> -->
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.animate.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.autoheight.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.autoplay.js" data-no-instant=""></script>
