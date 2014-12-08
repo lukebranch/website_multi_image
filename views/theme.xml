@@ -3,13 +3,13 @@
     <data>
         <template id="website.theme_chd_misc" name="theme_chd_misc" inherit_id="website.theme" priority="1">
           <xpath expr="//link[last()]" position="after">
-            <link href="/website_multi_image/static/css/owlcarousel2/owl.animate.css" rel="stylesheet" />
-            <link href="/website_multi_image/static/css/owlcarousel2/owl.autoheight.css" rel="stylesheet" />
+            <!-- <link href="/website_multi_image/static/css/owlcarousel2/owl.animate.css" rel="stylesheet" />
+            <link href="/website_multi_image/static/css/owlcarousel2/owl.autoheight.css" rel="stylesheet" /> -->
             <link href="/website_multi_image/static/css/owlcarousel2/owl.carousel.css" rel="stylesheet" />
-            <link href="/website_multi_image/static/css/owlcarousel2/owl.lazyload.css" rel="stylesheet" />
+            <!-- <link href="/website_multi_image/static/css/owlcarousel2/owl.lazyload.css" rel="stylesheet" /> -->
             <link href="/website_multi_image/static/css/owlcarousel2/owl.theme.default.css" rel="stylesheet" />
-            <!-- <link href="/website_multi_image/static/css/owlcarousel2/owl.theme.green.css" rel="stylesheet" /> -->
-            <link href="/website_multi_image/static/css/owlcarousel2/owl.video.css" rel="stylesheet" />
+            <!-- <link href="/website_multi_image/static/css/owlcarousel2/owl.theme.green.css" rel="stylesheet" />
+            <link href="/website_multi_image/static/css/owlcarousel2/owl.video.css" rel="stylesheet" /> -->
             <link href="/website_multi_image/static/css/bootstrap-magnify/bootstrap-magnify.min.css" rel="stylesheet" />
           </xpath>
         </template>
