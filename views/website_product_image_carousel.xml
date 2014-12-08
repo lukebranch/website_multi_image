@@ -5,7 +5,7 @@
           <xpath expr="//span[@t-field='product.image']" position="replace">
             <div class="owl-carousel">
                 	<t t-foreach="product.images" t-as="i">
-                	<div class="item"><span t-field="i.image_small" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img&quot;, &quot;alt&quot;: &quot;i.image_alt&quot;}"/></div>
+                	<span t-field="i.image_small" class="item" t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;product_detail_img&quot;, &quot;alt&quot;: &quot;i.image_alt&quot;}"/>
                 	</t>
             </div>
           </xpath>
