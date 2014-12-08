@@ -99,6 +99,7 @@
                 });
 	
             </script>
+            <script>hljs.initHighlightingOnLoad();</script>
           </xpath>
         </template>
     </data>
