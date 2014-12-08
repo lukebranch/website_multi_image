@@ -32,7 +32,7 @@
             <script type="text/javascript">
                     $('.magnify-container img').magnify();
             </script>
-            <script>
+            <script type="text/javascript">
             $(document).ready(function() {
               var owl = $('.owl-carousel');
               owl.owlCarousel({
