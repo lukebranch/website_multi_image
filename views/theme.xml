@@ -55,50 +55,49 @@
             })
             </script> -->
             <script type="text/javascript">
-                jQuery(document).ready(function ($) {
+		jQuery(document).ready(function ($) {
 
-	                var $sync1 = $(".big-images"),
-	                	$sync2 = $(".thumbs"),
-	                	flag = false,
-	                	duration = 300;
+			var $sync1 = $(".big-images"),
+				$sync2 = $(".thumbs"),
+				flag = false,
+				duration = 300;
 
-	                $sync1
-	                	.owlCarousel({
-	                		items: 1,
-	                		margin: 10,
-	                		nav: true,
-	                		dots: true
-	                	})
-	                	.on('changed.owl.carousel', function (e) {
-	                		if (!flag) {
-	                			flag = true;
-	                			$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
-	                			flag = false;
-	                		}
-	                	});
+			$sync1
+				.owlCarousel({
+					items: 1,
+					margin: 10,
+					nav: true,
+					dots: true
+				})
+				.on('changed.owl.carousel', function (e) {
+					if (!flag) {
+						flag = true;
+						$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+						flag = false;
+					}
+				});
 
-	                $sync2
-	                	.owlCarousel({
-	                		margin: 20,
-	                		items: 6,
-	                		nav: true,
-	                		center: true,
-	                		dots: true
-	                	})
-	                	.on('click', '.owl-item', function () {
-	                		$sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+			$sync2
+				.owlCarousel({
+					margin: 20,
+					items: 6,
+					nav: true,
+					center: true,
+					dots: true
+				})
+				.on('click', '.owl-item', function () {
+					$sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
 
-	                	})
-	                	.on('changed.owl.carousel', function (e) {
-	                		if (!flag) {
-	                			flag = true;		
-	                			$sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
-	                			flag = false;
-	                		}
-	                	});
-                });
-	
-            </script>
+				})
+				.on('changed.owl.carousel', function (e) {
+					if (!flag) {
+						flag = true;		
+						$sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+						flag = false;
+					}
+				});
+		});
+	</script>
             <script>hljs.initHighlightingOnLoad();</script>
           </xpath>
         </template>
