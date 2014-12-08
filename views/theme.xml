@@ -16,18 +16,18 @@
         <template id="clean_script" inherit_id="website.assets_frontend" name="Clean scripts">
           <xpath expr="/t" position="inside">
             <!-- <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jscsrc" data-no-instant=""></script>
-            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jshintrc" data-no-instant=""></script> -->
+            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/.jshintrc" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.animate.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.autoheight.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.autoplay.js" data-no-instant=""></script>
-            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.autorefresh.js" data-no-instant=""></script>
+            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.autorefresh.js" data-no-instant=""></script> -->
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.carousel.js" data-no-instant=""></script>
-            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.hash.js" data-no-instant=""></script>
+            <!-- <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.hash.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.lazyload.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.navigation.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.support.js" data-no-instant=""></script>
             <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.support.modernizr.js" data-no-instant=""></script>
-            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.video.js" data-no-instant=""></script>
+            <script type="text/javascript" src="/website_multi_image/static/js/owlcarousel2/owl.video.js" data-no-instant=""></script> -->
             <script type="text/javascript" src="/website_multi_image/static/js/bootstrap-magnify/bootstrap-magnify.min.js" data-no-instant=""></script>
             <script type="text/javascript">
                     $('.magnify-container img').magnify();
